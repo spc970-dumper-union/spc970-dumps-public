@@ -1,16 +1,32 @@
-# Mecha-LIBeration exploit dumps
+## Mecha-LIBeration exploit dumps
+
+### CXP101064 Series (v1.xx Firmware) — MD 1.36
+
+| mecha | Revision | JP / DTL (`6xx`) | Chassis / Remarks |
+| :--- | :---: | :---: | :--- |
+| `1.02_0` |  | ❌ 605R | A-chassis SCPH-10000 (Japan) |
+| `1.03_0` |  | ❌ 602R | A-chassis DTL-T10000, DTL-H10000 |
+
+### CXP102064 Series (v1.xx Firmware) — MD 1.36/MD 1.38
+
+| mecha | Revision | JP / DTL (`0xx`) | DTL (`75x`) | Chassis / Remarks |
+| :--- | :---: | :---: | :---: | :--- |
+| `1.06_0` |  | ❌ 001R | — | A-chassis SCPH-10000 with blacklisted DVD-Player 1.00 (GH-001, Japan) |
+| `1.07_0` |  | ❌ 003R | — | A-chassis DTL-T10000, DTL-H10000 (GH-001) |
+| `1.08_0` |  | ❌ 002R | — | A-chassis SCPH-15000 (GH-003 with Sony RF-amp) |
+| `1.09_0` |  | — | ❌ 751R | A-chassis DTL-T10000H, DTL-T15000 |
 
 ### CXP102064 Series (v2.xx Firmware) — MD 1.39
 
 | mecha | Revision | JP (`0xx`) | US (`1xx`) | EU (`2xx`) | AU (`3xx`) | Arcade (`6xx`) | DTL-H3000x (`70x`) | DTL-Hx010x (`75x`) | Chassis / Remarks |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| `2.00 ?` |  | ❌ 004R? | — | — | — | — | — | — | early SCPH-15000/18000 (GH-003 Board)??? |
-| `2.02_0` | `1.19` | ✅ **005R** | — | — | — | — | — | — | A/A+ chassis SCPH-15000/18000, AB-chassis SCPH-18000 |
-| `2.04_10` | `1.2` | — | — | — | — | ✅ **651R** | — | — | Namco System 246 / 256 |
+| :--- | :---: | :---: |:----------:| :---: | :---: | :---: | :---: | :---: | :--- |
+| `2.00 ?` |  | ❌ 004R? |     —      | — | — | — | — | — | early SCPH-15000/18000 (GH-003 Board)??? |
+| `2.02_0` | `1.19` | ✅ **005R** |     —      | — | — | — | — | — | A/A+ chassis SCPH-15000/18000, AB-chassis SCPH-18000 |
+| `2.04_10` | `1.2` | — |     —      | — | — | ✅ **651R** | — | — | Namco System 246 / 256 |
 | `2.04/05` | `1.27` | — | ✅ **101R** | ✅ **201R** | ❌ 301R | — | — | — | B and C chassis |
 | `2.06/07` | `1.30` | ❌ 006R?| ✅ **102R** | ✅ **202R** | ❌ 302R | — | ❌ 752R? | ❌ 702R? | C and D chassis |
 | `2.12/13` | `1.36` | ✅ **007R** | ✅ **103R** | ✅ **203R** | ❌ 303R | — | — | ❌ 703R?, ✅ **705R** | D-chassis |
-| `2.14` | `1.45` | ✅ **008R** | ❌ 104R | ❌ 204R | ❌ 304R | — | — | — | D-chassis |
+| `2.14` | `1.45` | ✅ **008R** | ✅ **104R** | ❌ 204R | ❌ 304R | — | — | — | D-chassis |
 
 ### CXP103049 Series (v3.xx Firmware) — MD 1.39 
 
@@ -36,6 +52,7 @@
 2.12_2.BIN : f505a5525347acf3adb86661dcccc6deedbe167bc762442eb04688b00da4d57d
 2.13_0.BIN : ca497983a4b74331825589ccbf4e345e3f374b806f5bd98b45bfb4a17f746b5d
 2.14_0.BIN : 8a9ecb6f4d03be40e8e1b90ed4144bb2a53bf79c3f0f81b32936290a8828a306
+2.14_1.BIN : d6340c57b9b0ce32192454a09321ecba072d898c8b17e88152a7cb61e2b9b1e1
 3.00_1.BIN : cfeb9f4d7dc96ed8e5bfcf751e9d4c40614cbefa6918a7a210ed220cf7f064df
 3.00_2.BIN : 0138ad7b825239a09e61bb7ad200a48eff7744e62ebe6147539c13db168fb6d5
 3.02_0.BIN : 3cb542343534f94af72f63831f6a61e894e6d107128b448ca7bed4e2ae447094
