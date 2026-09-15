@@ -14,13 +14,14 @@
 
 ### CXP103049 Series (v3.xx Firmware) — MD 1.39 
 
-| mecha | Revision | JP (`0xx`) | US (`1xx`) | EU (`2xx`) | AU (`3xx`) | Asia (`4xx`) | Russia (`5xx`) | Chassis / Remarks                                                                                                                                                                          |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| `3.00` | `3.12` | — | ❌ 101GG | ✅ **201GG** | ❌ 301GG | — | — | F-chassis; SCPH-30001/2/3/4 R; separate EEPROM + RTC |
+| mecha | Revision | JP (`0xx`) | US (`1xx`)  | EU (`2xx`) | AU (`3xx`) | Asia (`4xx`) | Russia (`5xx`) | Chassis / Remarks                                                                                                                                                                          |
+| :--- | :---: | :---: |:-----------:| :---: | :---: | :---: | :---: | :--- |
+| `3.00` | `3.12` | — | ✅ **101GG** | ✅ **201GG** | ❌ 301GG | — | — | F-chassis; SCPH-30001/2/3/4 R; separate EEPROM + RTC |
 | `3.02` | `3.13` | ✅ **001GG** | ✅ **102GG** | ✅ **202GG** | ❌ 302GG | — | — | F-chassis; SCPH-30000 (Japan), SCPH-30001/2/3/4 R; combined EEPROM + RTC |
-| `3.04_4` | `3.14` | — | — | — | — | ✅ **401GG** | — | F-chassis SCPH-30005/6/7 R (Asia), combined EEPROM+RTC |
+| `3.04_4` | `3.14` | — |      —      | — | — | ✅ **401GG** | — | F-chassis SCPH-30005/6/7 R (Asia), combined EEPROM+RTC |
 | `3.06` | `3.24` | ✅ **002GG** | ✅ **103GG** | ✅ **203GG** | ❌ 303GG | ❌ 402GG | ❌ 501GG | G-chassis; SCPH-37000 (Japan, earlier units), SCPH-39000/1/2/3/4/5/6/7/8/10 |
-| `3.08` | — | ❌ 003GG | — | — | — | ❌ 403GG | — | G-chassis; SCPH-39000 (Japan) and SCPH-39005/6/7 (Asia), later units |
+| `3.08` | — | ❌ 003GG |      —      | — | — | ❌ 403GG | — | G-chassis; SCPH-39000 (Japan) and SCPH-39005/6/7 (Asia), later units |
+
 
 # Checksums
 ```
@@ -35,6 +36,7 @@
 2.12_2.BIN : f505a5525347acf3adb86661dcccc6deedbe167bc762442eb04688b00da4d57d
 2.13_0.BIN : ca497983a4b74331825589ccbf4e345e3f374b806f5bd98b45bfb4a17f746b5d
 2.14_0.BIN : 8a9ecb6f4d03be40e8e1b90ed4144bb2a53bf79c3f0f81b32936290a8828a306
+3.00_1.BIN : cfeb9f4d7dc96ed8e5bfcf751e9d4c40614cbefa6918a7a210ed220cf7f064df
 3.00_2.BIN : 0138ad7b825239a09e61bb7ad200a48eff7744e62ebe6147539c13db168fb6d5
 3.02_0.BIN : 3cb542343534f94af72f63831f6a61e894e6d107128b448ca7bed4e2ae447094
 3.02_1.BIN : 45b2bdb3b44c623c05076113932a280e62e5f91703e44047227d963678bb273d
