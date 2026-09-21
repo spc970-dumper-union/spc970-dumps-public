@@ -35,7 +35,7 @@
 | `3.00` | `3.12` | — | ✅ **101GG** | ✅ **201GG** | ❌ 301GG | — |       —        | F-chassis; SCPH-30001/2/3/4 R; separate EEPROM + RTC |
 | `3.02` | `3.13` | ✅ **001GG** | ✅ **102GG** | ✅ **202GG** | ❌ 302GG | — |       —        | F-chassis; SCPH-30000 (Japan), SCPH-30001/2/3/4 R; combined EEPROM + RTC |
 | `3.04_4` | `3.14` | — |      —      | — | — | ✅ **401GG** |       —        | F-chassis SCPH-30005/6/7 R (Asia), combined EEPROM+RTC |
-| `3.06` | `3.24` | ✅ **002GG** | ✅ **103GG** | ✅ **203GG** | ❌ 303GG | ❌ 402GG |  ✅ **501GG**   | G-chassis; SCPH-37000 (Japan, earlier units), SCPH-39000/1/2/3/4/5/6/7/8/10 |
+| `3.06` | `3.24` | ✅ **002GG** | ✅ **103GG** | ✅ **203GG** | ✅ **303GG** | ❌ 402GG |  ✅ **501GG**   | G-chassis; SCPH-37000 (Japan, earlier units), SCPH-39000/1/2/3/4/5/6/7/8/10 |
 | `3.08` | — | ❌ 003GG |      —      | — | — | ❌ 403GG |       —        | G-chassis; SCPH-39000 (Japan) and SCPH-39005/6/7 (Asia), later units |
 
 ## Dump checksums
@@ -43,8 +43,8 @@
 | Dump | SHA-256 | Build date | Author |
 | :--- | :--- | :---: | :---: |
 | `2.02_0.BIN` | `24f35a30c06e249ce92f32700e37a00b554c9220b9a96634dfb4574ce48f0589` | `2000-07-04` | `dai` |
-| `2.02_2.BIN` | `a83862547484eaafe91f0396596a1cd1f5c7b8f364d9566001a10a0d0b580f5a` | `2000-07-13` | `dai` |
 | `2.04_1.BIN` | `fde32c17c6f5ec611814b9a71606709be09b56da7a1ad9ef2d12b87c8846346d` | `2000-07-13` | `dai` |
+| `2.04_2.BIN` | `a83862547484eaafe91f0396596a1cd1f5c7b8f364d9566001a10a0d0b580f5a` | `2000-07-13` | `dai` |
 | `2.04_10.BIN` | `75f58e288215141187de8591b466e9aa273bdb53e049d2606bd137957daf21d2` | `2000-08-04` | `inui` |
 | `2.06_1.BIN` | `089ad12b0b44881af1b0649914925da2a9c46f79adacc5b7f6e2dcf84af03d10` | `2000-09-20` | `dai` |
 | `2.06_2.BIN` | `620b61188e7d1e551c861c8b6f945010286968bd65a49d1da69bc7322590091f` | `2000-09-20` | `dai` |
@@ -63,4 +63,5 @@
 | `3.06_0.BIN` | `6481048108f8de9085406a75c8b3f8ae2e0e237bcd76a7ae35f7f0c2bd8d515c` | `2002-02-01` | `dai` |
 | `3.06_1.BIN` | `d4662c30d99c98b72d3d5b77986ca74e9d36df2dbb4eaad5f63b787722ef7a2b` | `2002-02-01` | `dai` |
 | `3.06_2.BIN` | `15b4dd3997c06bc229e98b2c0028d1be8e6651a924780ee201c84612d95d4cf2` | `2002-02-01` | `dai` |
+| `3.06_3.BIN` | `43e275356bfa2607a13f4c87fb58c3b8823eab53633304db3d043d990d30be43` | `2002-02-01` | `dai` |
 | `3.06_5.BIN` | `6230a06a608ab450e37a1cecf796c54e89508e274c91fa8a3c0acd5386a007e4` | `2002-02-01` | `dai` |
