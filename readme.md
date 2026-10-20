@@ -36,7 +36,7 @@
 | `3.02` | `3.13` | 2001-09-13 | ✅ **001GG** | ✅ **102GG** | ✅ **202GG** | ❌ 302GG | — |       —        | F-chassis; SCPH-30000 (Japan), SCPH-30001/2/3/4 R; combined EEPROM + RTC |
 | `3.04_4` | `3.14` | 2001-09-21 | — |      —      | — | — | ✅ **401GG** |       —        | F-chassis SCPH-30005/6/7 R (Asia), combined EEPROM+RTC |
 | `3.06` | `3.24` | 2002-02-01 | ✅ **002GG** | ✅ **103GG** | ✅ **203GG** | ✅ **303GG** | ❌ 402GG |  ✅ **501GG**   | G-chassis; SCPH-37000 (Japan, earlier units), SCPH-39000/1/2/3/4/5/6/7/8/10 |
-| `3.08` | - | - | ❌ 003GG |      —      | — | — | ❌ 403GG |       —        | G-chassis; SCPH-39000 (Japan) and SCPH-39005/6/7 (Asia), later units |
+| `3.08` | - | - | ✅ **003GG** |      —      | — | — | ✅ **403GG** |       —        | G-chassis; SCPH-39000 (Japan) and SCPH-39005/6/7 (Asia), later units |
 
 ## Dump checksums
 
@@ -72,3 +72,5 @@
 | `3.06_2.BIN` | `15b4dd3997c06bc229e98b2c0028d1be8e6651a924780ee201c84612d95d4cf2` | `2002-02-01` | `dai` |
 | `3.06_3.BIN` | `43e275356bfa2607a13f4c87fb58c3b8823eab53633304db3d043d990d30be43` | `2002-02-01` | `dai` |
 | `3.06_5.BIN` | `6230a06a608ab450e37a1cecf796c54e89508e274c91fa8a3c0acd5386a007e4` | `2002-02-01` | `dai` |
+| `3.08_0.BIN` | `93758d3bf2d2ada235d0ae3cfaa15d055649f6dc0ded66015dedb76ce1ef8398` | `2002-08-27` | `dai` |
+| `3.08_4.BIN` | `f28bf310d071b3e80a7086fde28c4abe747083422d6b7f8d9ff02706618ff66a` | `2002-08-27` | `dai` |
